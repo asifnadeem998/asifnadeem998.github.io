@@ -1,11 +1,19 @@
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
 
 <nav>
   <a href="#">Home</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Contact</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
 </nav>
 
 <div class="hero">
@@ -13,3 +21,47 @@
   <p>Welcome to my website!</p>
   <button>Learn More</button>
 </div>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>Main website design seekh raha hoon aur ye meri pehli website hai.</p>
+</section>
+
+<section id="services" class="services">
+  <h2>My Services</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Web Design</h3>
+      <p>Beautiful aur modern websites design karna.</p>
+    </div>
+
+    <div class="card">
+      <h3>HTML & CSS</h3>
+      <p>Website ka structure aur styling banana.</p>
+    </div>
+
+    <div class="card">
+      <h3>Responsive Design</h3>
+      <p>Website ko mobile aur laptop dono ke liye banana.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 My First Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
